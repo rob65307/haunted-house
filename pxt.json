@@ -1,7 +1,9 @@
 {
-    "name": "Haunt",
+    "name": "Haunted",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "corgio": "*",
+        "animation": "*"
     },
     "description": "",
     "files": [

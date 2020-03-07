@@ -75,10 +75,105 @@ f e e e e e e e e e e e e e e f
 f e e e e e e e e e e e e e e f 
 f e e e e e e e e e e e e e e f 
 `
+    //% blockIdentity=images._tile
+    export const tile4 = img`
+c c c b b b b b b b b b b c c c 
+b c c b b b b b b b b b b c c c 
+c c c b b b b b b b b b b c b c 
+c c c b b b c c c c c c c c c c 
+c c c b b b c c c c b c c c c c 
+c b c b b b c c c c c c c c c c 
+c c c b b b b b b c c c c c b c 
+c c c b b b b b b c c c c c c c 
+c c c b b b b b b c c c c c c c 
+c c c b b b b b b c c c b c c c 
+c c c b b b c c c c c c c c c c 
+c b c b b b c c c c c c c c c c 
+c c c b b b c c c c c c c c c c 
+c c c b b b b b b b b b b c b c 
+c c c b b b b b b b b b b c c c 
+c c c b b b b b b b b b b c c c 
+`
+    //% blockIdentity=images._tile
+    export const tile5 = img`
+c c c b b b c c b c b b b c c c 
+c c c b b b c c c c b b b c c c 
+c c c b b b b c c b b b b c c c 
+b c c c b b b c c b b b c c b c 
+c c c c b b b b b b b b c c c c 
+c c c c c b b b b b b c c c c c 
+c c c c c b b b b b b c c c c c 
+c c c c c c b b b b c c c c b c 
+c c b c c c b b b b c c b c c c 
+c c c c c c b b b b c c c c c c 
+c c c c c b b b b b b c c c c c 
+c b c c c b b b b b b c c b c c 
+c c c c b b b b b b b b c c c c 
+c c c b b b b c c b b b b c c c 
+c c c b b b b c c b b b b c c c 
+c c c b b b c c c c b b b c c b 
+`
+    //% blockIdentity=images._tile
+    export const tile6 = img`
+c c c b b b b b b b b b b c c c 
+c c c b b b b b b b b b b c c c 
+c b c b b b b b b b b b b c c c 
+c c c c c c b b b b c c c c b c 
+c c c c c c b b b b c c c c c c 
+c b c c c c b b b b c c c c c c 
+c c c c c c b b b b c c b c c c 
+c c c b c c b b b b c c c c c c 
+c c c c c c b b b b c c c c c c 
+c c c c c c b b b b c c c c b c 
+c c c c c c b b b b c b c c c c 
+c b c c c c b b b b c c c c c c 
+c c c c c c b b b b c c c c c c 
+c c c b b b b b b b b b b c c c 
+c c c b b b b b b b b b b c b c 
+c c c b b b b b b b b b b c c c 
+`
+    //% blockIdentity=images._tile
+    export const tile7 = img`
+c c c b b b b b b b b b b c c c 
+c c c b b b b b b b b b b c c b 
+c c c b b b b b b b b b b c c c 
+c c c c c c b b b b c c c c c c 
+c b c c c c b b b b c c c c c c 
+c c c c c c b b b b c c b c c c 
+c c c c b c b b b b c c c c c c 
+c c c c c c b b b b c c c c c c 
+c c c c c c b b b b c c c c c c 
+c c c c c c b b b b c c c c c c 
+c c c b c c b b b b c b c c c c 
+c c c c c c b b b b c c c c c c 
+c c c c c c b b b b c c c c c c 
+c c c c c c b b b b c c c b c c 
+c b c c c c b b b b c c c c c c 
+c c c c c c b b b b c c c c c c 
+`
+    //% blockIdentity=images._tile
+    export const tile8 = img`
+c c c c c c c c c c c c c c c c 
+c b c c c c c c c c c c c b c c 
+c c c c c c b c c c b c c c c c 
+c c c c c c c c c c b b c c b c 
+c c c c b c c c c c b b b c c c 
+c c c c c c c c c c b b b b c c 
+b b b b b b b b b b b b b b b c 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b c 
+c c c c c c c c c c b b b b c c 
+c c b c c c c c c c b b b c c c 
+c c c c c b c c c c b b c c c c 
+c c c c c c c c c c b c c c c c 
+c c b c c c c c c c c c c b c c 
+c c c c c c c c b c c c c c c c 
+`
 }
 function createLvl1 () {
     tiles.setTilemap(tiles.createTilemap(
-            hex`0a001e0015151515151515151514150e0e0e0e0e0e0e0e0e15151515151515151515151515151307070715071515151510151515151515151516101515151515070707070815151515151515151515151515151515151515111515151515151515151015151515151515151510151515151516151515101515151515151515151015151515151515151515151515151515151515130715070715151515151015151515150707070708150c070707151515151515151515150e0e15110e0e0e150e0e1515151015151515151515161510151515151515151515101515090e150e1515151515150d1615151515150b15150d1515151515150b15151515151507070708191a0c07070718181818040318181818181818180403181818181818181804031818181818181818040318181818`,
+            hex`0a001e0022221b1c1d1e1f151514150e0e0e0e0e0e0e0e0e22222222222222222222222222221307070722072222222210222222222222221516102222222222070707070822222222222222222222222222222222222222112222222222222222221022222222222222222210222222222216222222102222222222152222221022222222222222222222222222222222222222130715070715222222221015151515150707070708150c070707222222222222222222220e0e15110e0e0e150e0e1515151022222222222215161510152215152215151515102222090e220e2222221522220d1622222222220b22220d1522222222220b22222222222207070708191a0c07070720181818040320181820182120180403182120181820181804031820182118181821040318181820`,
             img`
 . . . . . . . . . . 
 . 2 2 2 2 2 2 2 2 2 
@@ -111,7 +206,7 @@ function createLvl1 () {
 . . . . . . . . . . 
 . . . . . . . . . . 
 `,
-            [myTiles.tile0,sprites.castle.rock0,sprites.castle.tileGrass2,sprites.castle.tilePath6,sprites.castle.tilePath4,sprites.dungeon.floorLight2,sprites.dungeon.floorLight0,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.floorLight4,sprites.dungeon.greenOuterEast1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterNorth0,sprites.dungeon.doorLockedWest,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.stairLarge,sprites.dungeon.darkGroundSouthWest1,myTiles.tile1,sprites.castle.tileGrass1,sprites.castle.tileDarkGrass1,myTiles.tile2,myTiles.tile3],
+            [myTiles.tile0,sprites.castle.rock0,sprites.castle.tileGrass2,sprites.castle.tilePath6,sprites.castle.tilePath4,sprites.dungeon.floorLight2,sprites.dungeon.floorLight0,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.floorLight4,sprites.dungeon.greenOuterEast1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterNorth0,sprites.dungeon.doorLockedWest,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.stairLarge,sprites.dungeon.darkGroundSouthWest1,myTiles.tile1,sprites.castle.tileGrass1,sprites.castle.tileDarkGrass1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,sprites.castle.tileDarkGrass3,sprites.castle.tileDarkGrass2,sprites.dungeon.darkGroundCenter],
             TileScale.Sixteen
         ))
     mySprite = sprites.create(img`
@@ -406,36 +501,36 @@ let mySprite: Sprite = null
 scene.setBackgroundImage(img`
 c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
 c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d d d d d d d d d a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c a a a a a a a a d c c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c c c c c c c c a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c a a a a a a a a d c c c c c c a a a d c c c c c c a a a d c c c c a a a a a a a a a d c c c c c a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c a a a a a a a a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a a a a a a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c a a a d d d d a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a a a a a a a a a d c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a a d d d a a a a d c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c a a a a a a a a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c a a a a a a a a a a a d c c c a a a a a a a a a a a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c a a a a a a a a a a a d c c c a a a a a a a a a a a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a a a a a d c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c d d d d d d d a a a a d c c c c a a a a a a a a a a a d c c c c c a a a d c c c c a a a d c c c c c c c d a a a a a a d c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c d d d d c c c c c d d d d d d d d d d d c c c c c c a a a d c c c c a a a d c c c c c c c c d a a a a a d c c c c c c c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c c c c c c c c c c c c c c b c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c d d d c c c c c d d d c c c c c c c c c c d d d d d c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c c c c c d d d d d d d d d c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c c c d d d d d d d d d d d d d c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c c d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c d d d d f f f d d d d d f f f d d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d f f f f f d d d f f f f f d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d f f f f f d d d f f f f f d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d f f f f f d d d f f f f f d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d d f f f d d d d d f f f d d d d c c c c c c c c c c c c c c c c a a a a a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c a a a a a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c a a a a a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c a a a d d d d d d d d d a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a a a a a a a a a d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c a a a a a a a a d c c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c c c c c c c c a a a a a a a a a a a d c c c c c c c c a a a a a a a d c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c c a a a a a a a a d c c c c c c a a a d c c c c c c a a a d c c c c a a a a a a a a a d c c c c c a a a a a a a a a a a d c c c c c c a a a a a a a a a d c c c c c c c c c c c c c c a a a d c c c c 
+c c c c c d d d f f f d d d d d d d f f f d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c a a a a a a a a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a a a a a a a a d c c c c c c c c a a a d c c c c c c c c c a a a a a a a a a a a d c c c c c c a a a a a a a a a a d c c c c 
+c c c c c d d d f f f f f d d d f f f f f d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c a a a d d d d a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a a a a a a a a a d c c c c c c c a a a d c c c c c c c c c a a a a d d d d a a a a d c c c c a a a a a a a a a a a d c c c c 
+c c c c c d d d d f f f f f f f f f f f d d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a a d d d a a a a d c c c c c c c a a a d c c c c c c c c a a a a d c c c c a a a a d c c c a a a a a a a a a a a a d c c c c 
+c c c c c d d d d d f f f f f f f f f d d d d d c c c c c c c c c c c c c c c c a a a d c c c c c c c c a a a d c c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c a a a d c c c c c c a a a d c c c a a a a d d d d d a a a d c c c c 
+c c c c c d d d d d d d f f f f f d d d d d d d c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c a a a a a a a a a a a a a d c c c a a a d c c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c a a a a a a a a a a a a d c c c c a a a d c c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c a a a a d c c c c c c c c a a a a d c c c c a a a d c c c a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c a a a a a a a a a a a a d c c c c a a a d c c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c a a a a a a a a a a d c c c c c a a a d c c c c c c a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a d c c c c c c c c a a a d d d d d d d d d c c c c c a a a a d c c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c a a a a a a a a a a a d c c c a a a a a a a a a a a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a a d c c c c c c c a a a a c c c c c c c c c c c c c a a a a a d c c c a a a d c c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c a a a d c c c c c c c c c c a a a d c c c c c a a a a a a a a a a a d c c c a a a a a a a a a a a a a d c c c c a a a d c c c c a a a d c c c c c c c a a a a a a a d c c c c c a a a a a a a a a a a d c c c c c a a a a a a a a a a a a d c c c 
+c c c c c d d d d d d d d d d d d d d d d d d d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c d d d d d d d a a a a d c c c c a a a a a a a a a a a d c c c c c a a a d c c c c a a a d c c c c c c c d a a a a a a d c c c c c a a a a a a a a a a a d c c c c c c a a a a a a a a a a a d c c c 
+c c c c c d d c d d d c d d d c d d d c d d d d c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c d d d d c c c c c d d d d d d d d d d d c c c c c c a a a d c c c c a a a d c c c c c c c c d a a a a a d c c c c c c a a a a a a a a a a d c c c c c c c a a a a a a a a a a d c c c 
+c c c c c d c c c d c c c d c c c d c c c d c d c c c c b c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c d d d c c c c c d d d c c c c c c c c c c d d d d d c c c c c c c d d d d d d d d d d c c c c c c c c d d d d d d d d d d c c c c 
 c c c c c c c c c c c c c c c c c c c c c c c c c c c b b c c c c c c b c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
 c c c c c c c c c c c c c c c c c c c c c c c c c c c b b b c c c c c b c c c c c c c c c c c c b c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
 c c c c c c c c c c c c c c c c c c c c c c c c c c b b b b b c c c c b b c c c c c c c c c c b b b c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
@@ -529,24 +624,21 @@ game.setDialogFrame(img`
 . . c c c c c c c c c c c . . 
 . c c c c c c c c c c c c c . 
 c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c 
-c c c c c d d d d d c c c c c 
-c c c c c d d d d d c c c c c 
-c c c c c d d d d d c c c c c 
-c c c c c d d d d d c c c c c 
-c c c c c d d d d d c c c c c 
-c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c 
+c c c d d d d d d d d d c c c 
+c c c d d d d d d d d d c c c 
+c c c d d d d d d d d d c c c 
+c c c d d d d d d d d d c c c 
+c c c d d d d d d d d d c c c 
+c c c d d d d d d d d d c c c 
+c c c d d d d d d d d d c c c 
+c c c d d d d d d d d d c c c 
+c c c d d d d d d d d d c c c 
 c c c c c c c c c c c c c c c 
 . c c c c c c c c c c c c c . 
 . . c c c c c c c c c c c . . 
 `)
 game.showLongText("Try and collect all 4 keys and escape before the time runs out!", DialogLayout.Bottom)
 createLvl1()
-forever(function () {
-    music.playMelody("E B C5 A B G A F ", 120)
-})
 forever(function () {
     moveBadGuy(badguy)
     moveBadGuy(badguy2)
