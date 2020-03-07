@@ -40,40 +40,40 @@ c c c c c 5 5 5 5 5 5 5 c c c c
     //% blockIdentity=images._tile
     export const tile2 = img`
 c c c c f f f f f f f f f f f f 
-c c f f e e e e e e e e e e e e 
-c f e e e e e e e e e e e e e e 
-c f e f f f f f f f e e e e e e 
-f e e f d d f d d f e e e e e e 
-f e e f d d f d d f e e e e e e 
-f e e f d d f d d f e e e e e e 
-f e e f f f f f f f e e e e e e 
-f e e f d d f d d f e e e e e e 
-f e e f d d f d d f e e e e e e 
-f e e f d d f d d f e e e 5 5 e 
-f e e f f f f f f f e e 5 e e e 
-f e e e e e e e e e e e e e e e 
-f e e e e e e e e e e e e e e e 
-f e e e e e e e e e e e e e e e 
-f e e e e e e e e e e e e e e e 
+c c f f e e e e e e e e e e e f 
+c f e e e e e e e e e e e e e f 
+c f e f f f f f f f e e e e e f 
+f e e f d d f d d f e e e e e f 
+f e e f d d f d d f e e e e e f 
+f e e f d d f d d f e e e e e f 
+f e e f f f f f f f e e e e e f 
+f e e f d d f d d f e e e e e f 
+f e e f d d f d d f e e e e e f 
+f e e f d d f d d f e e e 5 5 f 
+f e e f f f f f f f e e 5 e e f 
+f e e e e e e e e e e e e e e f 
+f e e e e e e e e e e e e e e f 
+f e e e e e e e e e e e e e e f 
+f e e e e e e e e e e e e e e f 
 `
     //% blockIdentity=images._tile
     export const tile3 = img`
 f f f f f f f f f f f f c c c c 
-e e e e e e e e e e e e f f c c 
-e e e e e e e e e e e e e e f c 
-e e e e e e f f f f f f f e f c 
-e e e e e e f d d f d d f e e f 
-e e e e e e f d d f d d f e e f 
-e e e e e e f d d f d d f e e f 
-e e e e e e f f f f f f f e e f 
-e e e e e e f d d f d d f e e f 
-e e e e e e f d d f d d f e e f 
-e 5 5 e e e f d d f d d f e e f 
-e e e 5 e e f f f f f f f e e f 
-e e e e e e e e e e e e e e e f 
-e e e e e e e e e e e e e e e f 
-e e e e e e e e e e e e e e e f 
-e e e e e e e e e e e e e e e f 
+f e e e e e e e e e e e f f c c 
+f e e e e e e e e e e e e e f c 
+f e e e e e f f f f f f f e f c 
+f e e e e e f d d f d d f e e f 
+f e e e e e f d d f d d f e e f 
+f e e e e e f d d f d d f e e f 
+f e e e e e f f f f f f f e e f 
+f e e e e e f d d f d d f e e f 
+f e e e e e f d d f d d f e e f 
+f 5 5 e e e f d d f d d f e e f 
+f e e 5 e e f f f f f f f e e f 
+f e e e e e e e e e e e e e e f 
+f e e e e e e e e e e e e e e f 
+f e e e e e e e e e e e e e e f 
+f e e e e e e e e e e e e e e f 
 `
 }
 function createLvl1 () {
@@ -339,6 +339,7 @@ function createLvl1 () {
 scene.onOverlapTile(SpriteKind.Player, myTiles.tile1, function (sprite, location) {
     keys += 1
     tiles.setTileAt(location, sprites.dungeon.darkGroundSouthWest1)
+    music.baDing.play()
 })
 function calcScore (start: number, end: number) {
     info.changeScoreBy(45 - (end - start) + info.life())
@@ -376,6 +377,7 @@ function moveBadGuy (bg: Sprite) {
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     badGuySpeed += 10
+    music.powerDown.play()
     info.changeLifeBy(-1)
     pause(1000)
 })
@@ -524,8 +526,8 @@ b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 
 b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 
 `)
 game.setDialogFrame(img`
-c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c 
+. . c c c c c c c c c c c . . 
+. c c c c c c c c c c c c c . 
 c c c c c c c c c c c c c c c 
 c c c c c c c c c c c c c c c 
 c c c c c c c c c c c c c c c 
@@ -537,11 +539,14 @@ c c c c c d d d d d c c c c c
 c c c c c c c c c c c c c c c 
 c c c c c c c c c c c c c c c 
 c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c 
-c c c c c c c c c c c c c c c 
+. c c c c c c c c c c c c c . 
+. . c c c c c c c c c c c . . 
 `)
 game.showLongText("Try and collect all 4 keys and escape before the time runs out!", DialogLayout.Bottom)
 createLvl1()
+forever(function () {
+    music.playMelody("E B C5 A B G A F ", 120)
+})
 forever(function () {
     moveBadGuy(badguy)
     moveBadGuy(badguy2)
